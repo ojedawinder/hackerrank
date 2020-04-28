@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class App {
     // Complete the solve function below.
     static void solve(double meal_cost, int tip_percent, int tax_percent) {
-        int result = (int)(meal_cost + (meal_cost*tip_percent/100) + (meal_cost*tax_percent/100) ) ;
-        System.out.printf("%d", result);
+        int totalCost = (int) Math.round((meal_cost + (meal_cost * tip_percent / 100) + (meal_cost * tax_percent / 100)));
+        System.out.printf("%d", totalCost);
     }
 
     private static final Scanner scanner = new Scanner(System.in);

@@ -6,7 +6,6 @@ public class App {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws Exception {
-        //scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
         int index = 1;
         while(scanner.hasNextLine()){
             String data= scanner.nextLine();

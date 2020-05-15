@@ -27,7 +27,7 @@ public class App {
         if(qLength==queue.length())
             qLength=0;
         return queue.charAt(qLength++);
-     }
+    }
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
